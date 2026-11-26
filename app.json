@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Safras Bank",
+    "slug": "safras-bank",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0A0805",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "O Safras Bank usa a câmera para demonstrar a leitura de boletos e a verificação de identidade.",
+          "recordAudioAndroidPermission": false
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.safras.bank",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0805"
+      },
+      "versionCode": 2
+    },
+    "description": "Aplicativo demonstrativo de experiência bancária Safras Bank."
+  }
+}
